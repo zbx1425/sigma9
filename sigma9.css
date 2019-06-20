@@ -243,6 +243,10 @@ sup {
 	background: transparent;
 }
 
+#top-bar li a {
+        padding: 1px 0.5em;
+    }
+
 #top-bar ul li {
 	border: 0;
 	position: relative;
