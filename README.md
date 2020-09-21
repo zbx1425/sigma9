@@ -1,11 +1,13 @@
 ## Sigma-9
 
-This is a fork for the repository for the Sigma-9 theme, the default CSS used to style the [SCP Wiki](http://scp-wiki.wikidot.com). It was originally created by [Aelanna](http://www.wikidot.com/user:info/aelanna) and is presently maintained by the SCP Wiki Technical Team. This fork is modified by the SCP CN Wiki Technical Team to fit the [SCP-CN Wiki](http://scp-wiki-cn.wikidot.com).
+[![](https://data.jsdelivr.com/v1/package/gh/scp-cn-tech/sigma9/badge?style=rounded)](https://www.jsdelivr.com/package/gh/scp-cn-tech/sigma9)
+
+This is a fork of the repository for the Sigma-9 theme, the default CSS used to style the [SCP Wiki](http://scp-wiki.wikidot.com). It was originally created by [Aelanna](http://www.wikidot.com/user:info/aelanna) and is presently maintained by the SCP Wiki Technical Team. This fork is modified to fit the [SCP-CN Wiki](http://scp-wiki-cn.wikidot.com).
 
 This theme is available under the wiki's [Creative Commons Attribution-ShareAlike 3.0 license (CC-BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/).
 
 ### Updating the Theme
 
-When new changes are pushed to the repository, they are not automatically reflected in the mainsite. You must open the page [`component:theme`](http://scp-wiki.wikidot.com/component:theme), and copy the CSS from `sigma9.css` into the `[[code]]` block.
+When new changes are pushed to the repository, they are not automatically reflected in the mainsite. A new release should be created to make a permanant copy of current CSS, then hotlinked in the wikidot admin panel via [jsDelivr](https://www.jsdelivr.com/package/gh/scp-cn-tech/sigma9) or other cdn of your choice. [`component:theme`](http://scp-wiki-cn.wikidot.com/component:theme) should be deprecated soon.
 
-Contrary to legend, it is not necessary to "re-select" the CSS source in the wiki's administrative panel. Updating the code block is sufficient.
+Different from upstream, the primary focus of this fork is to host the CSS outside wikidot, to provide higher loading speed for users in mainland China.
