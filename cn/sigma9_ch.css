@@ -394,13 +394,14 @@ sup {
     padding: 0 5px 0;
 }
 div.scpnet-interwiki-wrapper {
-    width: 18em;
-    margin-left: -5px;
+    margin: -4px -6px 1em;
+    min-height: 300px;
 }
 iframe.scpnet-interwiki-frame {
-    height: 300px;
-    width: 18em;
+    width: 100%;
+    height: 0;
     border: none;
+    overflow-y: hidden;
 }
 /* CONTENT */
 #main-content {
@@ -1297,10 +1298,6 @@ img, embed, video, object, iframe, table {
         left: 0;
         background: rgba(0,0,0,0.3) 1px 1px repeat;
         z-index: -1;
-    }
-    div.scpnet-interwiki-wrapper,
-    iframe.scpnet-interwiki-frame {
-        width: 17em;
     }
 }
 /* 隐藏直接贴在讨论区的图片 */
