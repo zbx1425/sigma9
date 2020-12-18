@@ -1330,7 +1330,6 @@ img, embed, video, object, iframe, table {
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(0,0,0,0.3) 1px 1px repeat;
         z-index: -1;
     }
 }
