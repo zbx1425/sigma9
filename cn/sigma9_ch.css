@@ -122,7 +122,7 @@ sup {
     position: relative;
     z-index: 10;
     padding-bottom: 22px; /* FOR MENU */
-    background: url('http://scp-wiki-cn.wdfiles.com/local--files/component%3Atheme/logo.png') 10px 40px 100px 100px no-repeat;
+    background: url('http://scp-wiki-cn.wdfiles.com/local--files/component%3Atheme/logo.png') 10px 40px no-repeat;
     background-size: 100px 100px;
 }
 #search-top-box {
